@@ -308,6 +308,13 @@ footer .wrap{padding-block:28px;display:flex;justify-content:space-between;gap:1
   section > .wrap{padding-block:56px}
 }
 @media (prefers-reduced-motion:no-preference){.btn{transition:filter .15s}}
+.hero{background:
+  linear-gradient(160deg,rgba(0,16,122,.93) 0%,rgba(0,20,137,.86) 50%,rgba(4,35,143,.74) 100%),
+  repeating-linear-gradient(0deg,rgba(255,255,255,.04) 0 1px,transparent 1px 44px),
+  repeating-linear-gradient(90deg,rgba(255,255,255,.04) 0 1px,transparent 1px 44px),
+  url("https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1800&q=70") center/cover no-repeat,
+  #001489}
+@media (max-width:600px){.hero{background-position:center,center,center,60% center}}
 </style>
 <style>html{-webkit-text-size-adjust:100%}body{margin:0}img{max-width:100%}[hidden]{display:none!important}:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
 </head>
