@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rxmcontabilidade.com.br/sitemap.xml
